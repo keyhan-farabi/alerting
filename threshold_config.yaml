@@ -1,0 +1,15 @@
+ram_threshold: 1  # RAM threshold percentage
+cpu_threshold: 1  # CPU threshold percentage
+network_interface: "eth0"  # Network interface to monitor
+network_traffic_threshold:
+  in: 1000000  # Incoming traffic threshold in bytes
+  out: 1000000  # Outgoing traffic threshold in bytes
+swap_threshold: 1  # Swap usage threshold percentage
+monitor_ram_interval: 1  # Interval in seconds for monitoring RAM
+monitor_cpu_interval: 1  # Interval in seconds for monitoring CPU
+monitor_network_interval: 1  # Interval in seconds for monitoring network traffic
+monitor_swap_interval: 1  # Interval in seconds for monitoring swap
+run_ram_monitor: true  # Whether to monitor RAM usage (true/false)
+run_cpu_monitor: true  # Whether to monitor CPU usage (true/false)
+run_network_monitor: true  # Whether to monitor network traffic (true/false)
+run_swap_monitor: true  # Whether to monitor swap usage (true/false)
